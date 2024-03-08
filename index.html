@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Tutorial</title>
+</head>
+
+<body>
+    <!-- To execute this html page we need to install the extension "LIVE SERVER" -->
+
+    <!-- To Access this any tag in the browser console We Need To Write the
+        document.getElementByTagName('h1')
+        document.getElementsByTagName('h1')[0]
+        document.getElementsByTagName('h1')[1]
+
+        We Can Also control CSS and styling from the browser console
+        document.getElementsByTagName('h1')[0].style.fontSize = "50px"
+        document.getElementsByTagName('h1')[0].style.background = "red"
+        document.getElementsByTagName('h1')[0].style.visibility = "hide"
+        document.getElementsByTagName('h1')[0].style.display = "none"
+    -->
+
+    <h1>Welcome To My JavaScript Learning</h1>
+    
+    <!-- Use M8 abbreviation to create a tag with class
+    div.container
+    -->  
+    
+    
+    <!-- To Access this container or any tag in the browser console We Need To Write the "id" of the tag like firstContainer -->
+    <!-- The Below changes that can be done through browser console is call DOM manipulation -->
+    <!-- We Can change this container data from the console also
+    like firstContainer.innerHTML = "Hello Mayank"
+    firstContainer.innerHTML = "<b>Hello Mayank You Are Bold Now</b>" To Make It Bold
+    -->
+    <div id="firstContainer" class="container">
+        This is paragraph 1
+    </div>
+    
+    <div class="container">
+        This is paragraph 2
+    </div>
+    
+    
+    <!-- Use M8 to create a tag with unique id
+    button#click
+    -->    
+    <button id="click">
+        Click Me
+    </button>
+
+    <script>
+        console.log("Hello World...!!!");
+        // alert("Mayank Tutorials")    // In General We Don't User Alert
+        document.write("This is document write")
+        console.warn("This Is A Warning...")
+        console.error("This Is An Error")
+        // console.clear()
+    </script>
+</body>
+</html>
