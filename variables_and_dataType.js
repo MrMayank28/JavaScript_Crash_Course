@@ -2,7 +2,7 @@
 
 let num1 = 36
 let num2 = 64
-console.log(num1 + num2);
+// console.log(num1 + num2);
 
 // Data Types In JavaScript
 // 1. Numbers
@@ -19,21 +19,21 @@ let marks = {
     Prachi: 98,
     Akash: 95
 }
-console.log(marks);
+// console.log(marks);
 
 // 4. Booleans
 let a = true
 let b = false
-console.log(a, b);
+// console.log(a, b);
 
 // 5. Undefined
 let und = undefined
 let undef;
-console.log(und, undef);
+// console.log(und, undef);
 
 // 6. null
 let n = null
-console.log(n);
+// console.log(n);
 
 /*
 At a very high level, There are two types of data Types in JavaSript
