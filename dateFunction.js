@@ -4,7 +4,9 @@ console.log(myDate);
 // console.log(myDate.getDate());
 // console.log(myDate.getMonth());
 // console.log(myDate.getFullYear());
-// console.log(myDate.getDay());
+
+// console.log(myDate.getDay());    // Sun=>0, Sat=>6
+
 // console.log(myDate.getHours());
 // console.log(myDate.getMinutes());
 // console.log(myDate.getSeconds());

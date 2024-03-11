@@ -5,6 +5,24 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>JavaScript Tutorial</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .container{
+            border: 2px solid red;
+            margin: 5 0px;
+            background: cyan;
+            padding: 20;
+        }
+        .bg-primary{
+            background-color: blueviolet;
+        }
+        .text-success{
+            color: white;
+        }
+    </style>
 </head>
 
 <body>
@@ -39,17 +57,15 @@
         This is paragraph 1
     </div>
 
-    <div class="container">
-        This is paragraph 2
+    <div class="container">        
+        <!-- Use M8 to create a tag with unique id
+            button#click
+        -->
+        <button id="click">
+            Click Me
+        </button>
+        <p>This is paragraph 2</p>
     </div>
-
-
-    <!-- Use M8 to create a tag with unique id
-    button#click
-    -->
-    <button id="click">
-        Click Me
-    </button>
     <!-- <script src="index.js"></script>
     <script src="variables_and_dataType.js"></script>
     <script src="operators.js"></script>
@@ -59,7 +75,8 @@
     <!-- <script src="loops.js"></script> -->
     <!-- <script src="arraysAndArrayMethods.js"></script> -->
     <!-- <script src="stringAndStringMethods.js"></script> -->
-    <script src="dateFunction.js"></script>
+    <!-- <script src="dateFunction.js"></script> -->
+    <script src="dom.js"></script>
 </body>
 
 </html>
